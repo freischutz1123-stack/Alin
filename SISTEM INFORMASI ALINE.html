@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remaja Sehat | Edukasi Reproduksi Remaja</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        .bg-gradient-blue { background: linear-gradient(to right top, #60A5FA, #3B82F6); } /* Tailwind blue-400 to blue-600 */
+        .card-effect { transition: all 0.3s ease; }
+        .card-effect:hover { transform: translateY(-8px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-sm fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">Remaja<span class="text-sky-500">Sehat</span></a>
+            <div class="hidden md:flex space-x-8 font-semibold text-gray-600">
+                <a href="#home" class="hover:text-blue-600 transition">Beranda</a>
+                <a href="#mengenal" class="hover:text-blue-600 transition">Mengenal Diriku</a>
+                <a href="#mitos" class="hover:text-blue-600 transition">Mitos & Fakta</a>
+                <a href="#tanya" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Tanya Bidan</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="bg-gradient-blue text-white py-24 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">Pahami Dirimu, <br><span class="text-sky-200">Rencanakan Masa Depanmu.</span></h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto mb-10 opacity-90">Edukasi sistem reproduksi yang mudah dipahami untuk remaja agar kamu lebih percaya diri dan bertanggung jawab.</p>
+            <a href="#mengenal" class="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition shadow-lg">Mulai Belajar Sekarang!</a>
+        </div>
+    </header>
+
+    <section id="mengenal" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-blue-700 mb-12">Mengenal Tubuhku, Menjaga Kesehatanku</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card-effect bg-white p-8 rounded-xl shadow-md border-b-4 border-blue-400">
+                    <div class="text-4xl text-blue-500 mb-4"><i class="fas fa-venus-mars"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Perubahan Tubuh Remaja</h3>
+                    <p class="text-gray-600 text-sm">Memahami pubertas, perubahan fisik pada laki-laki dan perempuan.</p>
+                </div>
+                <div class="card-effect bg-white p-8 rounded-xl shadow-md border-b-4 border-sky-400">
+                    <div class="text-4xl text-sky-500 mb-4"><i class="fas fa-dna"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Sistem Reproduksi</h3>
+                    <p class="text-gray-600 text-sm">Mengenal fungsi organ reproduksi internal dan eksternal secara sederhana.</p>
+                </div>
+                <div class="card-effect bg-white p-8 rounded-xl shadow-md border-b-4 border-blue-300">
+                    <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-hands-bubbles"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Kebersihan Diri</h3>
+                    <p class="text-gray-600 text-sm">Pentingnya menjaga kebersihan area pribadi untuk mencegah infeksi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mitos" class="py-20 bg-blue-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-blue-700 text-center mb-12">Mitos vs. Fakta Seputar Reproduksi</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100 flex items-start space-x-4">
+                    <div class="flex-shrink-0 text-3xl text-red-500"><i class="fas fa-times-circle"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Mitos: "Cuma sentuhan sedikit, tidak akan hamil."</h3>
+                        <p class="text-gray-600 text-sm">Fakta: Kehamilan bisa terjadi kapan saja jika ada kontak sperma dengan sel telur, bahkan dari cairan pra-ejakulasi. Selalu waspada!</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100 flex items-start space-x-4">
+                    <div class="flex-shrink-0 text-3xl text-red-500"><i class="fas fa-times-circle"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Mitos: "Olahraga berat bisa merusak rahim/testis."</h3>
+                        <p class="text-gray-600 text-sm">Fakta: Tidak benar. Olahraga justru baik untuk kesehatan reproduksi secara umum. Hanya cedera parah yang bisa berdampak.</p>
+                    </div>
+                </div>
+                 <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100 flex items-start space-x-4">
+                    <div class="flex-shrink-0 text-3xl text-red-500"><i class="fas fa-times-circle"></i></div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-1">Mitos: "Masturbasi berbahaya untuk kesehatan."</h3>
+                        <p class="text-gray-600 text-sm">Fakta: Masturbasi adalah hal normal dan tidak berbahaya. Penting untuk menjaga kebersihan dan tidak berlebihan hingga mengganggu aktivitas lain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tanya" class="py-20 bg-blue-600 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Punya Pertanyaan? Jangan Ragu!</h2>
+            <p class="text-lg max-w-2xl mx-auto mb-8 opacity-90">Kami siap menjawab pertanyaanmu seputar kesehatan reproduksi. Privasi terjaga!</p>
+            <a href="https://wa.me/628123456789?text=Halo%20Bidan%2C%20saya%20punya%20pertanyaan%20tentang%20kesehatan%20reproduksi." class="bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-100 transition shadow-xl">
+                <i class="fab fa-whatsapp mr-3"></i> Tanya Bidan Via WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-blue-900 text-blue-200 py-10">
+        <div class="container mx-auto px-6 text-center text-sm">
+            <p>&copy; 2026 Remaja Sehat. Semua Hak Dilindungi.</p>
+            <p class="mt-2">Edukasi ini bertujuan untuk informasi dan tidak menggantikan nasihat profesional.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
